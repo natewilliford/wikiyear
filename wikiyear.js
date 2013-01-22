@@ -14,7 +14,7 @@
   $.get("http://en.wikipedia.org/wiki/" + year, function(resp) {
     var dom, event_item, items;
     dom = $(resp);
-    items = dom.find('#Events').closest("h2").nextUntil("h2").andSelf().filter("ul").find("li");
+    items = dom.find('#Events').closest("h2").nextUntil("h2").filter("ul").find("li");
     event_item = items[Math.floor(Math.random() * items.length)];
     return console.log($(event_item).text());
   });
