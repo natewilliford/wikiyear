@@ -1,0 +1,14 @@
+{
+  "name" : "WikiYear",
+  "description" : "What random event happened in a certain year (according to Wikipedia)?",
+  "homepage" : "http://github.com/natewilliford/wikiyear",
+  "keywords" : ["informational", "script", "wikipedia", "fun"],
+  "author" : "Nathan Williford <nathan.williford@gmail.com>",
+  "contributors" : [],
+  "dependencies" : {
+    "jquery": "*"
+  },
+  "repository" : {"type": "git", "url": "https://github.com/natewilliford/wikiyear.git"},
+  "main" : "wikiyear.js",
+  "version" : "0.1.0"
+}
