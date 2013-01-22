@@ -12,7 +12,6 @@ $.get "http://en.wikipedia.org/wiki/" + year, (resp) ->
   items = dom.find('#Events')
     .closest("h2")
     .nextUntil("h2")
-    .andSelf()
     .filter("ul")
     .find("li")
 
